@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" />
+        <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+        <PackageReference Include="Nuget.IRM.Tools.Enum.Utils" />
+        <PackageReference Include="Npgsql.OpenTelemetry" />
+        <PackageReference Include="Sentry.AspNetCore" />
+        <PackageReference Include="Sentry.OpenTelemetry" />
+        <PackageReference Include="Serilog.AspNetCore" />
+        <PackageReference Include="Serilog.Enrichers.Span" />
+        <PackageReference Include="Serilog.Expressions" />
+        <PackageReference Include="Serilog.Extensions.Hosting"/>
+        <PackageReference Include="Serilog.Extensions.Logging"/>
+        <PackageReference Include="Serilog.Sinks.Async" />
+        <PackageReference Include="Serilog.Sinks.Console" />
+        <PackageReference Include="Swashbuckle.AspNetCore" />
+        <PackageReference Include="OpenTelemetry.Exporter.Console" />
+        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" />
+        <PackageReference Include="OpenTelemetry.Extensions.Hosting" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.Http" />
+        <PackageReference Include="WolverineFx.Kafka" />
+        <PackageReference Include="WolverineFx.Postgresql" />
+        <PackageReference Include="WolverineFx.RuntimeCompilation" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\IRM.Settlements.Infrastructure\IRM.Settlements.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

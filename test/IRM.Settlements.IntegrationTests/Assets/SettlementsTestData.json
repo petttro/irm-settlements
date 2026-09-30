@@ -1,0 +1,162 @@
+{
+  "ServiceCompanies": [
+    {
+      "Id": 18,
+      "Name": "ООО \"Градуат\"",
+      "SapId": "K000012097",
+      "ContractNumber": "01-2347/04-2019",
+      "ContractDate": "2019-04-20",
+      "BankName": "ПАО Бабанк",
+      "BankBic": "044123123",
+      "BankSwiftCode": "AKBBBY2X",
+      "CorrespondentAccount": "30111110400011000232",
+      "BankAccount": "10111110400011000232",
+      "Inn": "081595927578",
+      "Kpp": "123123123"
+    }
+  ],
+  "ServiceCenters": [
+    {
+      "Id": 1524,
+      "ExternalId": "31",
+      "Name": "\"СЦ Градуат 1\"",
+      "ServiceCompanySapId": "K000012097"
+    },
+    {
+      "Id": 1525,
+      "ExternalId": "32",
+      "Name": "\"СЦ Градуат 2\"",
+      "ServiceCompanySapId": "K000012097"
+    }
+  ],
+  "Mvz" : [
+    {
+      "Id": "S001",
+      "CityName": "Краснодар",
+      "MvzCode": "MVZ-S001"
+    },
+    {
+      "Id": "S002",
+      "CityName": "Санкт-Петербург",
+      "MvzCode": "MVZ-S002"
+    },
+
+    {
+      "Id": "S003",
+      "CityName": "Смоленск"
+    }
+  ],
+  "Appeals": [
+    {
+      "Id": 100,
+      "BrandId": 2,
+      "CouponNumber": "410001692501",
+      "SaleOrderNumber": "4100016925",
+      "SalesChannel": "Магазин",
+      "WareCode": "6007211",
+      "ServiceName": "Установка стиральной машины_6010082",
+      "ServicePrice": 2599,
+      "PaymentStatus": 4,
+      "BsiStatus": 3,
+      "ProjectTypeId": 2,
+      "Created": "2026-04-20T15:33:51.803Z",
+      "SaleDate": "2026-04-20T18:29:39Z",
+      "ServiceDate": "2026-01-02",
+      "AppealDate": "2026-04-20T15:29:39Z",
+      "CityId": 2,
+      "CityKisId": "0014",
+      "CityName": "Санкт-Петербург",
+      "ServiceCompanyId": 18,
+      "ServiceCompanySapId": "K000012097",
+      "ServiceCenterId": 1524,
+      "ShopName": "S002",
+      "OrderNumber": "000222333555",
+      "ConfirmType": 0,
+      "CheckNumber": 234645,
+      "AdditionalServices": [
+        {
+          "Name": "Комф. Уст. Холод./Мор. с Перенав. дверей",
+          "WareCode": "6007247"
+        },
+        {
+          "Name": "Выезд мастера 1 зона",
+          "WareCode": "6010075"
+        }
+      ]
+    },
+    {
+      "Id": 101,
+      "BrandId": 2,
+      "CouponNumber": "410001692502",
+      "SaleOrderNumber": "4100016926",
+      "SalesChannel": "Магазин",
+      "WareCode": "6007235",
+      "ServiceName": "Установка стиральной машины_6010082",
+      "ServicePrice": 3699,
+      "PaymentStatus": 4,
+      "BsiStatus": 5,
+      "ProjectTypeId": 2,
+      "Created": "2026-04-20T15:33:51.803Z",
+      "SaleDate": "2026-04-20T18:29:39Z",
+      "ServiceDate": "2026-02-03",
+      "AppealDate": "2026-04-20T15:29:39Z",
+      "CityId": 2,
+      "CityKisId": "0014",
+      "CityName": "Санкт-Петербург",
+      "ServiceCompanyId": 18,
+      "ServiceCompanySapId": "K000012097",
+      "ServiceCenterId": 1524,
+      "ShopName": "S002",
+      "OrderNumber": "000222333555",
+      "ConfirmType": 1,
+      "CheckNumber": 234645,
+      "AdditionalServices": [
+        {
+          "Name": "Комф. Уст. Холод./Мор. с Перенав. дверей",
+          "WareCode": "6007247"
+        },
+        {
+          "Name": "Выезд мастера 1 зона",
+          "WareCode": "6010075"
+        }
+      ]
+    },
+    {
+      "Id": 102,
+      "BrandId": 2,
+      "CouponNumber": "410001692503",
+      "SaleOrderNumber": "4100016927",
+      "SalesChannel": "Магазин",
+      "WareCode": "6009574",
+      "ServiceName": "Установка стиральной машины_6010082",
+      "ServicePrice": 4799,
+      "PaymentStatus": 4,
+      "BsiStatus": 6,
+      "ProjectTypeId": 2,
+      "Created": "2026-04-20T15:33:51.803Z",
+      "SaleDate": "2026-04-20T18:29:39Z",
+      "ServiceDate": "2026-03-04",
+      "AppealDate": "2026-04-20T15:29:39Z",
+      "CityId": 2,
+      "CityKisId": "0014",
+      "CityName": "Санкт-Петербург",
+      "ServiceCompanyId": 18,
+      "ServiceCompanySapId": "K000012097",
+      "ServiceCenterId": 1525,
+      "ShopName": "S002",
+      "OrderNumber": "000222333555",
+      "ConfirmType": 2,
+      "CheckNumber": 234645,
+      "AdditionalServices": [
+        {
+          "Name": "Комф. Уст. Холод./Мор. с Перенав. дверей",
+          "WareCode": "6007247"
+        },
+        {
+          "Name": "Выезд мастера 1 зона",
+          "WareCode": "6010075"
+        }
+      ]
+    }
+  ]
+}

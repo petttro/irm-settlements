@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path=".gitlab-ci.yml" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Dockerfile" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src\IRM.Settlements.Api\IRM.Settlements.Api.csproj" />
+    <Project Path="src\IRM.Settlements.Application\IRM.Settlements.Application.csproj" />
+    <Project Path="src\IRM.Settlements.Domain\IRM.Settlements.Domain.csproj" />
+    <Project Path="src\IRM.Settlements.Infrastructure\IRM.Settlements.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test\IRM.Settlements.IntegrationTests\IRM.Settlements.IntegrationTests.csproj" />
+    <Project Path="test\IRM.Settlements.UnitTests\IRM.Settlements.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/utils/">
+    <Project Path="utils/MigrateData/MigrateData.csproj" />
+  </Folder>
+</Solution>
